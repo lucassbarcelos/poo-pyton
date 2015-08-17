@@ -5,3 +5,4 @@ b=input('outra coisa ai')
 x=a+b
 print(x)
 print('ate que nao foi mal')
+print('agora testando no windowns')
