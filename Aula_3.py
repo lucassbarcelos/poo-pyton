@@ -39,3 +39,4 @@ reta_derivada=derivar(reta)
 
 print(reta_derivada(1))
 print(reta_derivada(2))
+k
