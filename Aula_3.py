@@ -17,3 +17,25 @@ print(type(x))
 print(type(s))
 print(type(c))
 print("ipsum lorum"*10)
+
+def f():
+    return 'string'
+
+
+print(type(f))
+
+a=f
+print(type(a))
+print(a())
+
+def derivar(funcao, delta_x=0.00000001):
+    def funcao_derivada(x):
+        return (funcao(x+delta_x)-funcao(x))//delta_x
+    return funcao_derivada
+def reta(x):
+    return x**2
+
+reta_derivada=derivar(reta)
+
+print(reta_derivada(1))
+print(reta_derivada(2))
